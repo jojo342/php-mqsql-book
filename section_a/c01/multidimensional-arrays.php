@@ -3,6 +3,7 @@ $offers = [
     ['name' => 'Toffee', 'price' => 5, 'stock' => 120,],
     ['name' => 'Mints',  'price' => 3, 'stock' => 66,],
     ['name' => 'Fudge',  'price' => 4, 'stock' => 97,],
+    ['name' => 'Chocolate',  'price' => 2, 'stock' => 83,]
 ];
 ?>
 <!DOCTYPE html>
@@ -20,5 +21,7 @@ $offers = [
       $<?php echo $offers[1]['price']; ?> </p>
     <p><?php echo $offers[2]['name']; ?> -
       $<?php echo $offers[2]['price']; ?> </p>
+    <p><?php echo $offers[3]['name']; ?> -
+      $<?php echo $offers[3]['price']; ?> </p>
   </body>
 </html>
