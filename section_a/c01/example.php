@@ -1,12 +1,12 @@
 <?php
-$username = 'Ivy';                                   // Variable to hold username
+$username = 'Kendra';                                   // Variable to hold username
 
-$greeting = 'Hello, ' . $username . '.';             // Greeting is 'Hello' + username
+$greeting = 'His, ' . $username . '.';             // Greeting is 'Hello' + username
 
 $offer = [                                           // Create array to hold offer
     'item'     => 'Chocolate',                       // Item on offer
-    'qty'      => 5,                                 // Quantity to buy
-    'price'    => 5,                                 // Usual price per pack
+    'qty'      => 3,                                 // Quantity to buy
+    'price'    => 6,                                 // Usual price per pack
     'discount' => 4,                                 // Offer price per pack
 ];
 
