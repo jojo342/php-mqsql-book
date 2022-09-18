@@ -1,6 +1,6 @@
 <?php
-$packs = 5;
-$price = 1.99;
+$packs = 10;
+$price = 2.99;
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
