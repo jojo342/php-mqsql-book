@@ -7,9 +7,9 @@ if ($name) {                                     // If $name has a value
 }
 
 $product = 'Lollipop';                           // Product name
-$cost    = 2;                                    // Cost of single pack
+$cost    = 10;                                    // Cost of single pack
 
-for ($i = 1; $i <= 10; $i++) {
+for ($i = 1; $i <= 20; $i++) {
     $subtotal   = $cost * $i;                    // Total for this quantity
     $discount   = ($subtotal / 100) * ($i * 4);  // Discount for this quantity
     $totals[$i] = $subtotal - $discount;         // Add discounted price to indexed array
